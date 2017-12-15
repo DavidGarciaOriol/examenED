@@ -47,6 +47,5 @@ public class ExamenED {
         }else{
             System.out.println("ES");
         }
-
     }
 }
