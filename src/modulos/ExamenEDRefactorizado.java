@@ -41,7 +41,7 @@ public class ExamenEDRefactorizado {
             }
         }
 
-        int producto = menor *mayor;
+        int producto = menor * mayor;
         if (producto == 0 || (producto % 2 != 0)  ){
             System.out.println("El número resultante NO ES primo.");
         }else{
