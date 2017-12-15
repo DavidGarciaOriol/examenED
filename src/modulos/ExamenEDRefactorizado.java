@@ -3,7 +3,7 @@ package modulos;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ExamenED {
+public class ExamenEDRefactorizado {
 
     static int w = 30;
 
@@ -16,10 +16,10 @@ public class ExamenED {
         int []a = new int[m];
         for(int in=0; in<m; in++)
         {
-            a[in] = random.nextInt(ExamenED.w);
+            a[in] = random.nextInt(ExamenEDRefactorizado.w);
         }
 
-        ExamenED.ejecutarAlgoritmo(a);
+        ExamenEDRefactorizado.ejecutarAlgoritmo(a);
         input.close();
     }
 
@@ -27,7 +27,7 @@ public class ExamenED {
     public static void ejecutarAlgoritmo(int[] a){
 
         int x = 0;
-        int y = ExamenED.w;
+        int y = ExamenEDRefactorizado.w;
 
         for(int in=0; in<a.length; in++)
         {
